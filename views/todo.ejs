@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Node To-Do App</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="/assets/todo-list.js"></script>
+    <link href="/assets/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="todo-table">
+        <h1>My To-do List</h1>
+        <form action="" method="post">
+            <input type="text" name="item" placeholder="Add new item" required>
+            <button type="submit">Add Item</button>
+        </form>
+        <ul>
+           <% for(var i=0; i < todos.length; i++){ %>
+                <li><%= todos[i].item %></li>
+           <% } %>
+        </ul>
+    </div>
+</body>
+</html>
