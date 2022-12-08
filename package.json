@@ -15,9 +15,9 @@
   "author": "King Nicholas",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "g": "^2.0.1",
     "mongoose": "^5.4.8",
     "nodemon": "^1.18.9"
